@@ -1,0 +1,451 @@
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 204, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 207, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 208, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 213, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 193, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 207, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 83, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 207, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 207, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 207, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+''
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 152, in _load_simple_text_file
+    fp = open(file)
+FileNotFoundError: [Errno 2] No such file or directory: "./output\\train\\eval_during_train\\val\\epoch_0\\tracker\\''\\dancetrack0004.txt"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 191, in eval_sequence
+    raw_data = dataset.get_raw_seq_data(tracker, seq)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 93, in get_raw_seq_data
+    raw_tracker_data = self._load_raw_file(tracker, seq, is_gt=False)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 207, in _load_raw_file
+    read_data, ignore_data = self._load_simple_text_file(file, is_zipped=self.data_is_zipped, zip_file=zip_file)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 209, in _load_simple_text_file
+    raise TrackEvalException(
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: File dancetrack0004.txt cannot be read because it is either not present or invalidly formatted
+
+
+
+
+
+MotChallenge2DBox
+
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 195, in eval_sequence
+    data = dataset.get_preprocessed_seq_data(raw_data, cls)
+  File "E:\cv\RTMOT\TrackEval\trackeval\_timing.py", line 64, in wrap
+    return f(*args, **kw)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\mot_challenge_2d_box.py", line 322, in get_preprocessed_seq_data
+    self._check_unique_ids(raw_data)
+  File "E:\cv\RTMOT\TrackEval\trackeval\datasets\_base_dataset.py", line 315, in _check_unique_ids
+    raise TrackEvalException(exc_str)
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: dancetrack0004, frame: 2, ids: 609 910)
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "E:\cv\RTMOT\TrackEval\trackeval\eval.py", line 81, in evaluate
+    results = pool.map(_eval_sequence, seq_list)
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 367, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\a\AppData\Local\Programs\Python\Python310\lib\multiprocessing\pool.py", line 774, in get
+    raise self._value
+trackeval.utils.TrackEvalException: Tracker predicts the same ID more than once in a single timestep (seq: dancetrack0004, frame: 2, ids: 609 910)
+
+
+
+
+
